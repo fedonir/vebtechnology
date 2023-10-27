@@ -3,6 +3,11 @@ h1{
     font-weight: 400; 
 } 
 .logos{ 
+    height: 60px; 
+    width: 60px; 
+    border-right: 10px; 
+}
+.logoDubna{ 
     height: 100px; 
     width: 100px; 
     border-right: 10px; 
