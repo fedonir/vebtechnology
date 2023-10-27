@@ -8,9 +8,46 @@
     width: 200px; 
     border-right: 10px; 
 }
-.phone1{
-    color:plum;
-}
+/* header{
+    background-color: aqua;
+    height: 400px; 
+    width: auto; 
+} */
 .phone2{
     color:blueviolet;
+}
+
+body {
+    margin: 0;
+    }
+
+.navigation {
+    background-color: black;
+    height: auto; 
+    width: auto; 
+    text-align: center; /* Выравнивание по центру */
+}
+
+main {
+    background-image: url(https://sun9-67.userapi.com/impg/BwkD0mzG8eV7uCiQvhIahKPnpxJ9TUeZxDz40g/nDtk2ViMFgQ.jpg?size=224x224&quality=95&sign=fd8dc8771e164d40bd6e1c89fdac9cae&c_uniq_tag=tCi3PCH41N-v-Tdll0ov8wftPXPuzNmj_Xsqx1k-h_Q&type=album);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navigation a {
+    display: inline-block;
+    margin: 5px; /* Отступы между кнопками */
+    padding: 10px 20px; /* Паддинг кнопок (вертикальный и горизонтальный) */
+    background-color: #007bff; /* Цвет фона кнопок */
+    color: #fff; /* Цвет текста кнопок */
+    text-decoration: none; /* Убираем подчеркивание текста ссылок */
+    border: 1px solid #007bff; /* Граница вокруг кнопок */
+    border-radius: 5px; /* Скругленные углы границы */
+    transition: background-color 0.3s, color 0.3s; /* Плавные переходы при наведении */
+}
+
+.navigation a:hover {
+    background-color: #0056b3; /* Цвет фона кнопок при наведении */
+    color: #fff; /* Цвет текста кнопок при наведении */
 }
