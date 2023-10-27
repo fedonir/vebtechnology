@@ -1,14 +1,16 @@
-h1{ 
-    font-size: large; 
-    font-weight: 400; 
-} 
 .logos{ 
     height: 60px; 
     width: 60px; 
-    border-right: 10px; 
+    border-right: 50px; 
 }
 .logoDubna{ 
     height: 200px; 
     width: 200px; 
     border-right: 10px; 
+}
+.phone1{
+    color:plum;
+}
+.phone2{
+    color:blueviolet;
 }
