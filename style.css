@@ -32,15 +32,39 @@ body {
 }
 
 #block2 {
-
+background-color: yellowgreen;
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
 }
 
-#block3 {
+img {
+    width: 200px;
+    height: auto;    
+    margin-left: 200px;
+}
 
+.text {
+    margin-right: 20px;
+    text-align: center;
+}
+
+
+p {
+    font-size: 16 px;
+}
+
+
+#block3 {
+    background-color: sienna;
+    height: 500px;
 }
 
 #block4 {
-
+    background-color: dimgray;
+    height: 500px;
 }
 
 .navigation a {
