@@ -24,13 +24,24 @@ body {
     text-align: center; /* Выравнивание по центру */
 }
 
-main {
+#block1 {
     background-image: url(https://s9.travelask.ru/uploads/post/000/026/422/main_image/facebook-df7d374956da1c62ca854d9dd4d5b221.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
 }
 
+#block2 {
+
+}
+
+#block3 {
+
+}
+
+#block4 {
+
+}
 
 .navigation a {
     display: inline-block;
