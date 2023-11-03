@@ -8,11 +8,7 @@
     width: 200px; 
     border-right: 10px; 
 }
-/* header{
-    background-color: aqua;
-    height: 400px; 
-    width: auto; 
-} */
+
 .phone2{
     color:blueviolet;
 }
@@ -29,9 +25,10 @@ body {
 }
 
 main {
-    background-image: url(https://sun9-67.userapi.com/impg/BwkD0mzG8eV7uCiQvhIahKPnpxJ9TUeZxDz40g/nDtk2ViMFgQ.jpg?size=224x224&quality=95&sign=fd8dc8771e164d40bd6e1c89fdac9cae&c_uniq_tag=tCi3PCH41N-v-Tdll0ov8wftPXPuzNmj_Xsqx1k-h_Q&type=album);
+    background-image: url(https://s9.travelask.ru/uploads/post/000/026/422/main_image/facebook-df7d374956da1c62ca854d9dd4d5b221.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
 }
 
 
@@ -50,4 +47,19 @@ main {
 .navigation a:hover {
     background-color: #0056b3; /* Цвет фона кнопок при наведении */
     color: #fff; /* Цвет текста кнопок при наведении */
+}
+h1 {
+text-align: center;
+color: orange;
+font-size: 80px;
+font-style: italic;
+font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+    font-size: 50px;
+    font-style: italic;
+    font-family: sans-serif; 
 }
