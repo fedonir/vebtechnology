@@ -18,10 +18,13 @@ body {
     }
 
 .navigation {
-    background-color: black;
-    height: auto; 
-    width: auto; 
+    background-color: rgb(255, 230, 0);
     text-align: center; /* Выравнивание по центру */
+}
+
+.intro {
+    text-align: left;
+    height: 100px;
 }
 
 #block1 {
@@ -40,7 +43,7 @@ justify-content: center;
 padding: 20px;
 }
 
-img {
+.imggrass {
     width: 200px;
     height: auto;    
     margin-left: 200px;
@@ -71,16 +74,16 @@ p {
     display: inline-block;
     margin: 5px; /* Отступы между кнопками */
     padding: 10px 20px; /* Паддинг кнопок (вертикальный и горизонтальный) */
-    background-color: #007bff; /* Цвет фона кнопок */
+    background-color: #ffae00; /* Цвет фона кнопок */
     color: #fff; /* Цвет текста кнопок */
     text-decoration: none; /* Убираем подчеркивание текста ссылок */
-    border: 1px solid #007bff; /* Граница вокруг кнопок */
+    border: 1px solid #ff9100; /* Граница вокруг кнопок */
     border-radius: 5px; /* Скругленные углы границы */
     transition: background-color 0.3s, color 0.3s; /* Плавные переходы при наведении */
 }
 
 .navigation a:hover {
-    background-color: #0056b3; /* Цвет фона кнопок при наведении */
+    background-color: #48ff00; /* Цвет фона кнопок при наведении */
     color: #fff; /* Цвет текста кнопок при наведении */
 }
 h1 {
