@@ -9,44 +9,98 @@
 </head> 
 <body> 
 <header class="navigation"> 
-<img src="images/natural.png" alt="Изображение" class="intro">
-
-<a href="index.html"> О себе</a>
-<a href="pages/summery.html">Резюме</a>
-<a href="pages/portfolio.html">Портфолио</a>
-<a href="#p1">Компетенции</a>
-<a href="pages/contacts.html">Контакты</a>
+    <div>
+        <img class="intro"src="images/natural.png" alt="Изображение">
+    </div>
+    <div class="navbar">
+    <a href="index.html"> О себе</a>
+    <a href="pages/summery.html">Резюме</a>
+    <a href="pages/portfolio.html">Портфолио</a>
+    <a href="#p1">Компетенции</a>
+    <a href="pages/contacts.html">Контакты</a>
+    </div>
 </header>
 
 <main> 
     <div class="block" id="block1"> 
-        <h1 id="p1">Персональный сайт Федорова Егора | Веб-технологии </h1> 
-        <h2> Университет "Дубна" </h2>
+        <h1 class="line" id="p1">Персональный сайт Федорова Егора | Веб-технологии </h1> 
+        <h2 class="about-me-head"> Университет "Дубна" </h2>
     </div>
 
     <div class="block" id="block2">  
             <div class="text">
-                <h2>Трава</h2>
-                <p> Зеленая, свежая, пахнет. </p>
+                <h2 class="about-me-head">Обо мне</h2>
+                <p> Меня зовут Федоров Егор, я студент 2 курса направления бизнес-информатики в государственном университете "Дубна". Так же состою в Школе Технологического предпринимательсва и акселераторе "Лифт". </p>
             </div>
-            <img class="imggrass" src="images/grass.jpeg" alt="Изображение">
+            <img class="imggrass" src="images/dami.jpg" alt="Изображение">
     </div>
 
-
-    <div class="block" id="block3" class="image-gallery">
-        <div class="image">
-            <img scr="" alt="изображение 1">
-            <p>Название 1</p>
-        
+    <div class="competence-block" class="block" id="block3">
+        <h2 class="competition">Мои компетенции</h2>
+        <div class="icon-container">
+            <div class="icon">
+                <img src="images/excel.png" alt="Icon 1">
+                <p>Excel</p>
+            </div>
+            <div class="icon">
+                <img src="images/powerpoint.png" alt="Icon 2">
+                <p>Powerpoint</p>
+            </div>
+            <div class="icon">
+                <img src="images/word.png" alt="Icon 3">
+                <p>Word</p>
+            </div>
+            <div class="icon">
+                <img src="images/python.png" alt="Icon 4">
+                <p>Python</p>
+            </div>
+            <div class="icon">
+                <img src="images/poker.png" alt="Icon 5">
+                <p>Poker</p>
+            </div>
         </div>
-        
     </div>
 
-
-    <div class="block" id="block4"> 
-содержимое 4
+    <div class="services-block">
+        <h2 class="uslugi">Мои услуги</h2>
+        <div class="services-container">
+            <div class="service-column">
+                <div class="service-item">
+                    <p>Разработка бизнесс-плана</p>
+                </div>
+                <div class="service-item">
+                    <p>Создание и оптимизация бизнесс-процесса</p>
+                </div>
+                <div class="service-item">
+                    <p>Генерация бизнес-идей</p>
+                </div>
+                <div class="service-item">
+                    <p>Расчеты финансов в exel</p>
+                </div>
+            </div>
+            <div class="service-column">
+                <div class="service-item">
+                    <p>Создание современных презентаций в powerpoint</p>
+                </div>
+                <div class="service-item">
+                    <p>Каточка в холдем</p>
+                </div>
+                <div class="service-item">
+                    <p>Написание простых программ на python</p>
+                </div>
+                <div class="service-item">
+                    <p>Написание курсовых за дорого</p>
+                </div>
+            </div>
+        </div>
     </div>
-</main> 
+
+    <div class="about-me-block">
+        <h2 class="portfolio">Портфолио</h2>
+        <p>В портфолио вы можете найти подробную информацию о моих достижениях в сферах бизнеса, программирования, маркетинга, философии, покера, литературы, биологии, тарологии, монополии, монголии, магнолии, гегемонии, филармонии, обсерватории. </p>
+        <button class="portfolio-button">Портфолио</button>
+    </div>
+
 
     <footer> 
      <img class="logos" src="images/tele.jpg"><img class="logos" src="images/vk.jpg" ><img class="logos" src="images/git.jpg" > 

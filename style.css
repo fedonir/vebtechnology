@@ -9,22 +9,26 @@
     border-right: 10px; 
 }
 
-.phone2{
-    color:blueviolet;
-}
-
 body {
     margin: 0;
+    background-color: yellowgreen;
     }
 
 .navigation {
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(133,188,245);
     text-align: center; /* Выравнивание по центру */
 }
 
 .intro {
     text-align: left;
     height: 100px;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+
+.line{
+    margin: 0;
 }
 
 #block1 {
@@ -32,37 +36,49 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    background-attachment: fixed;
 }
 
 #block2 {
 background-color: yellowgreen;
-height: 500px;
+height: 230px;
 display: flex;
 align-items: center;
 justify-content: center;
-padding: 20px;
+padding: 40px;
+
 }
 
 .imggrass {
-    width: 200px;
+    width: 300px;
     height: auto;    
-    margin-left: 200px;
+    margin-left: 150px;
 }
 
 .text {
-    margin-right: 20px;
     text-align: center;
+    margin-left: 100px;
 }
 
 
 p {
     font-size: 16 px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: left;
 }
 
 
 #block3 {
-    background-color: sienna;
-    height: 500px;
+    background-color: rgb(255, 226, 121);
+    height: 300px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #block4 {
@@ -70,22 +86,35 @@ p {
     height: 500px;
 }
 
-.navigation a {
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation a{
     display: inline-block;
-    margin: 5px; /* Отступы между кнопками */
-    padding: 10px 20px; /* Паддинг кнопок (вертикальный и горизонтальный) */
-    background-color: #ffae00; /* Цвет фона кнопок */
-    color: #fff; /* Цвет текста кнопок */
-    text-decoration: none; /* Убираем подчеркивание текста ссылок */
-    border: 1px solid #ff9100; /* Граница вокруг кнопок */
-    border-radius: 5px; /* Скругленные углы границы */
-    transition: background-color 0.3s, color 0.3s; /* Плавные переходы при наведении */
+    margin: 5px 50px;
+    padding: 10px 20px;
+    background-color: #ffae00;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #ff9100;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .navigation a:hover {
     background-color: #48ff00; /* Цвет фона кнопок при наведении */
-    color: #fff; /* Цвет текста кнопок при наведении */
+    color: #000000; /* Цвет текста кнопок при наведении */
 }
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 h1 {
 text-align: center;
 color: orange;
@@ -94,10 +123,128 @@ font-style: italic;
 font-family: sans-serif;
 }
 
-h2 {
+main{
+    margin: 0;
+}
+
+.about-me-head {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     color: green;
     font-size: 50px;
+    font-style: italic;
+    font-family: sans-serif; 
+}
+
+
+
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.icon {
+    text-align: center;
+    
+}
+.icon img {
+    max-width: 55%; /* Максимальная ширина изображения - 100% от родительского контейнера */
+    height: auto;
+}
+
+.icon p {
+    margin-top: 10px;
+    font-size: 16 px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.competition {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(0, 145, 255);
+    font-size: 35px;
+    font-style: italic;
+    font-family: sans-serif; 
+}
+
+
+.services-block {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.service-column {
+    flex: 0 0 48%; /* Чтобы обеспечить промежуток между колонками, можно использовать небольшую ширину */
+}
+
+.service-item {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.service-item p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.uslugi {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-style: italic;
+    font-family: sans-serif; 
+}
+
+.about-me-block {
+    max-width: 8000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+button.portfolio-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+button.portfolio-button:hover {
+    background-color: #0056b3;
+}
+
+.portfolio {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
     font-style: italic;
     font-family: sans-serif; 
 }
