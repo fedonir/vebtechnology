@@ -22,7 +22,7 @@ body {
 .intro {
     text-align: left;
     height: 100px;
-    margin: 10px;
+
     padding-left: 10px;
 }
 
@@ -247,4 +247,15 @@ button.portfolio-button:hover {
     font-size: 35px;
     font-style: italic;
     font-family: sans-serif; 
+}
+
+.footer-logos {
+    text-align: center;
+}
+
+.footer-text {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
