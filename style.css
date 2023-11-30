@@ -393,3 +393,14 @@ li{
     margin: 5px;
 }
 
+.white-section {
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    style="border-left-width: 111px;
+    padding-left: 111px;
+    padding-bottom: 60px;
+    padding-top: 10px; 
+    flex-direction: row;"
+  }
+
